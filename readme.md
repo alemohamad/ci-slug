@@ -17,7 +17,8 @@ Its usage is recommended for CodeIgniter 2 or greater.
 ```php
 $this->load->library('Slug');
 
-echo $this->slug->create_unique_slug('Better password security in GitHub', 'news');
+// parameters: 'text', 'table'
+echo $this->slug->create_unique_slug('New features in GitHub', 'news');
 ```
 
 ![Ale Mohamad](http://alemohamad.com/github/logo2012am.png)
